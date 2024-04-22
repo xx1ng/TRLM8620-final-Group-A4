@@ -53,8 +53,8 @@
     "Checkout": {
         "checkoutTitle": "Checkout",
         "shipSectionLabel": "Shipping Info",
-        "firstNameLabel": "Given Name",
-        "lastNameLabel": "Family Name",
+        "firstNameLabel": "First Name",
+        "lastNameLabel": "Last Name",
         "coordinatesLabel": "Coordinates",
         "coordinatesHolder": "0,0,0",
         "sectorLabel": "Sector",
