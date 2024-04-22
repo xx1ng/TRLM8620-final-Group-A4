@@ -32,7 +32,7 @@
     "Navbar": {
         "searchPlaceholder": "What are you looking for?",
         "searchButtonLabel": "search products",
-        "logoAlt": "Rebel Outfitters Logo",
+        "logoAlt": "Sample Logo",
         "searchIconAlt": "search icon",
         "greetingText": "Hi Junjun",
         "historyLink": "ORDER HISTORY",
@@ -46,10 +46,7 @@
         "welcomeSubtitle": "We provide everything you need to take on the Empire (and win).",
         "symbolAlt": "Imperial Credit currency symbol"
     },
-    "Browse": {
-        "droidTitle": "All Droids",
-        "vehicleTitle": "All Vehicles"
-    },
+    
     "Checkout": {
         "checkoutTitle": "Checkout",
         "shipSectionLabel": "Shipping Info",
@@ -104,24 +101,10 @@
     "Bottombar": {
         "menuAlt": "open sidebar menu"
     },
-    "Hamburger": {
-        "githubLogoAlt": "GitHub Logo",
-        "lingoLogoAlt": "Lingoport Logo",
-        "versionLabel": "Version: ",
-        "versionBad": "Non-i18n Compliant",
-        "versionGood": "I18n Compliant",
-        "versionIQA": "InContext",
+    "LocaleSelector": {
         "localeLabel": "Locale: ",
-        "localeEN": "English - United States",
-        "localeFR": "French - France",
-        "localeZH": "Chinese - China",
-        "localeYO": "Yoda",
-        "localeSI": "Sith",
-        "localeEO": "Esperanto",
-        "githubLabel": "View Source",
-        "dashLabel": "Command Center (demo/demo)",
-        "contactLabel": "Contact Us",
-        "learnLabel": "Learn More"
+        "localeEN": "English - US",
+        "localeZH": "Chinese - China"
     },
     "Special": "Special"
 }

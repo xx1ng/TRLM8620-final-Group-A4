@@ -937,18 +937,6 @@ p {
   margin-top: 15px;
 }
 
-.lingoLogo {
-  background: none;
-  align-self: center;
-  margin-bottom: 10px;
-}
-
-.logoThumb {
-  width: 25px;
-  height: 25px;
-  margin-right: 5px;
-}
-
 .showHam {
   left: calc(100% - 430px);
   z-index: 1000;

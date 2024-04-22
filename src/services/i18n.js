@@ -1,4 +1,4 @@
-import { locale } from '../app.js';
+import { locale, updateLocale } from '../app.js';
 
 var stringsJSON = {};
 
@@ -15,9 +15,11 @@ const i18n = {
         try {
             const response = await fetch(`./content/${newLocale}/strings.json`, options)
             stringsJSON = await response.json();
-
         } catch (err) {
-            console.log('Error getting strings', err)
+            console.log('Error getting strings', err);
+            if (newLocale != "en-US") {
+                updateLocale("en-US");
+            }
         }
     },
 
@@ -26,30 +28,14 @@ const i18n = {
         return stringsJSON[view][key];
     },
 
-    //determine the proper currency formate based on locale and return html string
+    //determine the proper currency format based on locale and return html string
     formatCurrency: (price, color) => {
         let formatted;
+        let converted = convertCurrency(price);
+        formatted = new Intl.NumberFormat(locale, { style: 'currency', currency: currencyMap[locale] }).format(converted); //$NON-NLS-L$ 
+        //return the formatted currency within template literal
+        return `<h4>${formatted}</h4>`
 
-        //format in imperial credit with symbol if locale is YODA or SITH
-        if (locale == 'yo' || locale == 'si') {
-            let symbolAlt = i18n.getString("Home", "symbolAlt");
-            formatted = new Intl.NumberFormat('en-US').format(price); //$NON-NLS-L$ 
-
-            //return the formatted currency within template literal
-            return `<img src="img/${color}Symbol.svg" class="symbol" alt="${symbolAlt}">
-            <h4>${formatted}</h4>`;
-        }
-        //psuedo locale
-        else if(locale == 'eo') {
-            return `<h4>&#8375;${convertCurrency(price)}</h4>`
-        }
-        //format using actual symbol and conventions if it's a real locale
-        else {
-            let converted = convertCurrency(price);
-            formatted = new Intl.NumberFormat(locale, { style: 'currency', currency: currencyMap[locale] }).format(converted); //$NON-NLS-L$ 
-            //return the formatted currency within template literal
-            return `<h4>${formatted}</h4>`
-        }
 
     },
     //return the locale based link to html file within the 'static' folder
@@ -66,7 +52,6 @@ const i18n = {
 //used to determine the correct currency symbol
 var currencyMap = {
     'en-US': 'USD',
-    'fr-FR': 'EUR',
     'zh-CN': 'CNY',
 };
 
@@ -74,13 +59,9 @@ var currencyMap = {
 var convertCurrency = (price) => {
     switch (locale) {
         case 'en-US':
-            return price * 0.62;
-        case 'fr-FR':
-            return price * 0.55;
+            return price * 1;
         case 'zh-CN':
-            return price * 4.27;
-        case 'eo':
-        return price * 2;
+            return price * 7; 
         default:
             return price;
     }

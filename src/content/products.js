@@ -8,6 +8,7 @@ const products = {
     loadProductCatalog : async() => {
 
         await i18n.loadStringsJSON(locale);
+        console.log("Loaded locale strings for " + locale);
 
         productCatalog = [{
             "productID" : 1,

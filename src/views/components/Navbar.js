@@ -20,16 +20,18 @@ let Navbar = {
         let navLinkDroids = i18n.getString("Navbar", "navLinkDroids");
         let navLinkVehicles = i18n.getString("Navbar", "navLinkVehicles");
 
-        let localeLabel = i18n.getString("Hamburger", "localeLabel");
-        let localeEN = i18n.getString("Hamburger", "localeEN");
-        let localeZH = i18n.getString("Hamburger", "localeZH");
+        let localeLabel = i18n.getString("LocaleSelector", "localeLabel");
+        let localeEN = i18n.getString("LocaleSelector", "localeEN");
+        let localeZH = i18n.getString("LocaleSelector", "localeZH");
+        let localeFR = i18n.getString("LocaleSelector", "localeFR");
+
 
         //view is solely for HTML markup, contains no static text
         let view =
         `<header>
         <!-- logo, search bar, local, profile drop down -->
         <section>
-            <img src="img/logo.svg" id="logo" alt="${logoAlt}">
+            <img src="img/Sample Logo.png" id="logo" alt="${logoAlt}">
         </section>
         <section id="search">
             <div id="bar">

@@ -10,7 +10,6 @@ let OrderHistory = "OrderHistory.js";//$NON-NLS-L$
 import Navbar from './views/components/Navbar.js';
 import Bottombar from './views/components/Bottombar.js';
 import Cart from './views/components/Cart.js';
-import {Hamburger} from './views/components/Hamburger.js';
 
 import {Order} from './views/classes/Order.js';
 
@@ -255,8 +254,7 @@ const router = async () => {
     // Render the Header, footer, and empty cart of the page
     cart.innerHTML = await Cart.render();
     await Cart.after_render();
-    // ham.innerHTML = await Hamburger.render();
-    // await Hamburger.after_render();
+   
     header.innerHTML = await Navbar.render();
     await Navbar.after_render();
     // footer.innerHTML = await Bottombar.render();
