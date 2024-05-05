@@ -17,7 +17,7 @@ const products = {
             "title": i18n.getString("title", "1"),
             "price": 21,
             "qty": 0,
-            "imageURL": "img/3PO.png",
+            "imageURL": "img/espresso_martini.png",
             "desc": i18n.getString("desc", "1")
         },
         {
@@ -27,7 +27,7 @@ const products = {
             "title": i18n.getString("title", "2"),
             "price": 25,
             "qty": 0,
-            "imageURL": "img/DUM-series.png",
+            "imageURL": "img/dry_martini.png",
             "desc": i18n.getString("desc", "2")
         },
         {
@@ -37,7 +37,7 @@ const products = {
             "title": i18n.getString("title", "3"),
             "price": 18,
             "qty": 0,
-            "imageURL": "img/2-1B.png",
+            "imageURL": "img/rosita.png",
             "desc": i18n.getString("desc", "3")
         },
         {
@@ -46,7 +46,7 @@ const products = {
             "title": i18n.getString("title", "4"),
             "price": 19,
             "qty": 0,
-            "imageURL": "img/IG-88.png",
+            "imageURL": "img/night_tripper.png",
             "desc": i18n.getString("desc", "4")
         },
         {
