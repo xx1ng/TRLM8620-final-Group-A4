@@ -1,9 +1,9 @@
 {
     "title": {
         "1": "Espresso Martini",
-        "2": "DUM-series Droid",
-        "3": "2-1B Surgical Droid",
-        "4": "IG-88B Droid",
+        "2": "Dry Martini",
+        "3": "Rosita",
+        "4": "Night Tripper",
         "5": "Sphyrna Corvette",
         "6": "G2 Repair Droid",
         "7": "CR90 Corvette",
@@ -15,10 +15,10 @@
         "13": "Super Tactical Droid"
     },
     "desc": {
-        "1": "Ingredients: 2 ounces vodka; 1/2 ounce coffee liqueur (usually Kahlúa); 1 ounce espresso;freshly brewed (or cold brew concentrate); 1/4 ounce simple syrup; Garnish: coffee beans",
-        "2": "Designed for maintaining podracers, pit droids are affordable, durable repair droids. Pit droids stand at a height of 1.19 meters but have the ability to fold into a compact form when not in use. This feature can be toggled by tapping their nose.",
-        "3": "The 2-1B droid model is highly advanced and intelligent with its programming being further advanced by some of the top physicians in the galaxy at the Rhinnal State Medical Academy, which also integrate heuristic processors. The most useful characteristic of the 2-1B droids is the ease with which owners can update their programming and appendages. A 2-1B droid can easily become a specialist in neurosurgery, podiatry, pediatrics, cybernetic limb replacement, and alien biology with a trip to a certified service center.",
-        "4": "A battered chrome war droid, IG-88 stands 1.96 meters in height. His steady aim, along with his ability to track targets with advanced sensors that ring his head and allow him to see in all directions, earns him great success. These sensors include multiple red photoreceptors, a heat sensor, and a sound sensor IG-88 also has a vocoder at the base of his head. His torso is able to fully rotate on the battlefield, allowing him to blast enemies on all sides. His tough metal body allows him to survive most attacks without taking any damage and features acid-proof servo wires.",
+        "1": "Ingredients:<li>2 ounces vodka;<li>1/2 ounce coffee liqueur (usually Kahlúa);<li>1 ounce espresso, freshly brewed (or cold brew concentrate); <li>1/4 ounce simple syrup;<li>Garnish: coffee beans.",
+        "2": "Ingredients:<li>2 1/2 ounces gin;<li>1/2 ounce dry vermouth;<li>1 dash orange bitters;<li>Garnish: lemon twist.",
+        "3": "Ingredients:<li>1 1/2 ounces tequila;<li>1/2 ounce sweet vermouth;<li>1/2 ounce dry vermouth;<li>1/2 ounce Campari;<li>1 dash Angostura bitters;<li>Garnish: lemon twist",
+        "4": "Ingredients:<li>1 3/4 ounces bourbon;<li>3/4 ounce dark amaro, like Averna or Ramazzotti;<li>1/4 ounce Strega;<li>2 dashes Peychaud's bitters;<li>Garnish: orange peel",
         "5": "Several new features have been added to the original Sphyrna structure, including two extra modules mounted to the port and starboard of the craft, six escape pods in place of the cargo bay, and a fourth sublight drive mounted on top of the primary three, giving it enough power to single-handedly move a disabled Star Destroyer. 315 meters in length with a maximum acceleration of 900 kilometers per hour. Equipped with a hyper drive system.",
         "6": "Intended to assist with shipboard repairs, the second-degree G2 repair droid is short in stature, standing 0.8 meters in height. It is also squat, with a wide, bottom-heavy stance that forces it to waddle when it walked. These traits, combined with its long, multi-jointed neck and widely spaced, weight-distributing feet, earns it the nickname 'goose droid.' Each G2 unit has a stripped-down, silver-and-brass-colored skeletal frame with exposed joints and wiring, with a colored trim. The droid's three-digit heavy manipulators can grasp most repair tools, while splayed feet aided in stabilizing its low center of gravity and gives the G2 extra stability when dealing with large, heavy equipment.",
         "7": "Measuring 150 meters in length, it features two dual and four single turbolaser turrets, and has the ability to reach a maximum speed of 950 kph. According to Luke Skywalker, some combat-outfitted CR90 ships can be equipped with six dual turbolasers. Capable of carrying an entire diplomatic escort, it has a passenger capacity in the hundreds. Although the ships are not built as carriers, three RZ-1 A-wing interceptors can be attached to the docking rings, allowing for a small escort. They serve as the backbone of the early rebellion and Alliance. Though not particularly heavily armed, CR90s possess enough forward firepower to destroy a Gozanti-class cruiser quite easily.",
