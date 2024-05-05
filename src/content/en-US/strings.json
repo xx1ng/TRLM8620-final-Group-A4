@@ -30,20 +30,20 @@
         "13": "A pretty good droid for coordinating attacks. Not good at fighting, just good at planning."
     },
     "Navbar": {
-        "searchPlaceholder": "What are you looking for?",
+        "searchPlaceholder": "What kind of cocktail are you looking for?",
         "searchButtonLabel": "search products",
-        "logoAlt": "Sample Logo",
+        "logoAlt": "A4Cocktail Logo",
         "searchIconAlt": "search icon",
         "greetingText": "Hi Team A4",
         "historyLink": "ORDER HISTORY",
         "arrowAlt": "Drop Down Arrow",
         "cartAlt": "show cart",
         "navLinkHome": "HOME",
-        "navLinkDroids": "DROIDS",
-        "navLinkVehicles": "VEHICLES"
+        "navLinkDroids": "CLASSIC",
+        "navLinkVehicles": "MODERN CLASSIC"
     },
     "Home": {
-        "welcomeSubtitle": "We provide everything you need to take on the Empire (and win).",
+        "welcomeSubtitle": "Check out the best cocktails we designed for you!",
         "symbolAlt": "Imperial Credit currency symbol"
     },
     
