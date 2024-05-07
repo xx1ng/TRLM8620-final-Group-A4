@@ -1,0 +1,112 @@
+{
+    "title": {
+        "1": "意式浓缩马天尼",
+        "2": "干马天尼",
+        "3": "罗西塔",
+        "4": "夜行者",
+        "5": "苏格兰酸",
+        "6": "银菲士",
+        "7": "湿马天尼",
+        "8": "越式霸王",
+        "9": "辣玛格丽特",
+        "10": "CBD金汤力",
+        "11": "试飞员",
+        "12": "海陆大战",
+        "13": "大满贯"
+    },
+    "desc": {
+        "1": "成分<li>60g伏特加<li>15g咖啡利口酒（通常为 Kahlúa）<li>30g现煮意式浓缩咖啡（或冷冲浓缩咖啡） <li>8g普通糖浆<li>用咖啡豆装饰",
+        "2": "成分<li>75g杜松子酒<li>15g干苦艾酒<li>微量橙苦味酒<li>用螺旋柠檬皮装饰",
+        "3": "成分<li>45g龙舌兰酒<li>15g甜苦艾酒<li>15g干苦艾酒<li>15g金巴利<li>微量安哥司杜拉苦味酒<li>用螺旋柠檬皮装饰",
+        "4": "成分<li>50g波旁威士忌<li>20g深色阿玛罗酒，如 Averna 或 Ramazzotti<li>8g金女巫利口酒<li>少量佩乔苦味酒<li>用橙皮装饰",
+        "5": "成分<li>60g混合苏格兰威士忌<li>20g柠檬汁<li>15g普通糖浆<li>少量安哥司杜拉苦味酒<li>用橙皮装饰 <li>1个蛋白 <li>用螺旋橙皮装饰",
+        "6": "成分<li>1勺白砂糖<li>15g鲜榨柠檬汁<li>60g伦敦干杜松子酒或老汤姆杜松子酒<li>30g有机蛋白<li>淋上30-60g冰镇苏打水",
+        "7": "成分<li> 60g杜松子酒 <li>30g干苦艾酒 <li>用螺旋柠檬皮装饰",
+        "8": "成分<li>20g绝对亦乐伏特加<li>8g 15年半干奥洛罗索雪利酒<li>30g越南粉汤汁<li>8g酸橙汁<li>2滴矿物盐水（1 份犹太盐兑 9 份矿泉水，如德克萨斯州的 Crazy Water #4）<li>用香菜叶装饰",
+        "9": "成分<li>1个柠檬片<li>2个去籽墨西哥辣椒<li>60g白龙舌兰酒<li>15g橙子利口酒<li>30g鲜榨酸橙汁<li>15g龙舌兰糖浆<li>在杯口抹上一圈盐<li>用墨西哥胡椒装饰",
+        "10": "成分<li>60g添加利黎檬风味杜松子酒<li>110g极光大麻饮料<li>用酸橙片装饰<li>用迷迭香枝装饰",
+        "11": "成分<li>40g深色牙买加朗姆酒<li>20g淡朗姆酒<li>15g君度酒<li>15g鲜榨青柠汁<li>15g法勒南酒<li>微量安哥司杜拉苦味酒<li>6滴保乐力加<li>用带刺的马拉希诺樱桃装饰",
+        "12": "60g伦敦干杜松子酒<li>30g鲜榨柠檬汁<li>20g麦芽酒<li>微量安哥司杜拉苦味酒<li>用螺旋柚子皮装饰",
+        "13": "60g甘蔗之花7年特级储备朗姆酒<li>30g哥斯林黑海豹朗姆酒<li>15g皮埃尔-费朗干杜松子酒<li>30g鲜榨柠檬汁<li>7g石榴酒<li>用螺旋橙皮装饰"
+    },
+    "Navbar": {
+        "searchPlaceholder": "您想要哪种鸡尾酒？",
+        "searchButtonLabel": "搜索产品",
+        "logoAlt": "Just Cocktail徽标",
+        "searchIconAlt": "搜索图标",
+        "greetingText": "嗨，A4 小组",
+        "historyLink": "订购历史",
+        "arrowAlt": "下拉箭头",
+        "cartAlt": "显示购物车",
+        "navLinkHome": "主页",
+        "navLinkDroids": "经典",
+        "navLinkVehicles": "现代经典"
+    },
+    "Home": {
+        "welcomeSubtitle": "看看我们为您优选的最佳鸡尾酒！",
+        "symbolAlt": "帝国信用货币符号"
+    },
+    
+    "Checkout": {
+        "checkoutTitle": "结账",
+        "shipSectionLabel": "送货信息",
+        "firstNameLabel": "名",
+        "lastNameLabel": "姓",
+        "coordinatesLabel": "坐标",
+        "coordinatesHolder": "0,0,0",
+        "sectorLabel": "部门",
+        "methodLabel": "运输方式",
+        "shipLightspeed": "光速送",
+        "shipOvernight": "隔夜送",
+        "shipStandard": "标准送",
+        "paySectionLabel": "付款方式",
+        "payNameLabel": "持卡人姓名",
+        "payNameHolder": "名 姓",
+        "accountLabel": "信用卡号码",
+        "accountHolder": "1234567-9876-00",
+        "securityLabel": "安全代码",
+        "securityHolder": "123456",
+        "expDateLabel": "有效期",
+        "cartTitle": "购物车",
+        "deleteAlt": "从购物车中删除商品",
+        "totalLabel": "共计：",
+        "orderLabel": "下单",
+        "termsStatement": "我已阅读并同意条款和条件",
+        "termsLink": "(查看)",
+        "successMessage": "成功下单！",
+        "noItemMessage": "将物品添加到购物车，然后结账。"
+    },
+    "ProductShow": {
+        "qtyLabel": "数量：",
+        "addToCartLabel": "添加到购物车",
+        "typeClassic": "所有经典",
+        "typeModernClassic": "所有现代经典"
+    },
+    "Cart": {
+        "cartTitle": "购物车",
+        "noItemMsg": "购物车中没有商品。",
+        "deleteAlt": "从购物车中删除商品",
+        "totalTitle": "共计：",
+        "checkoutLabel": "结账",
+        "closeAlt": "关闭购物车"
+    },
+    "OrderHistory": {
+        "historyTitle": "购买历史",
+        "dateHeading": "日期",
+        "numberHeading": "订单号",
+        "totalHeading": "总计",
+        "statusHeading": "状态"
+    },
+    "Error404": {
+        "errorMessage": "404 错误：页面未找到。"
+    },
+    "Bottombar": {
+        "menuAlt": "打开侧边栏菜单"
+    },
+    "LocaleSelector": {
+        "localeLabel": "地点",
+        "localeEN": "英语 - 美国",
+        "localeZH": "中文 - 中国"
+    },
+    "Special": "特别"
+}
