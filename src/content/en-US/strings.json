@@ -78,7 +78,9 @@
     },
     "ProductShow": {
         "qtyLabel": "Qty: ",
-        "addToCartLabel": "ADD TO CART"
+        "addToCartLabel": "ADD TO CART",
+        "typeClassic": "All Classic",
+        "typeModernClassic": "All Modern Classic"
     },
     "Cart": {
         "cartTitle": "Shopping Cart",
