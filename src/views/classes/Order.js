@@ -23,8 +23,11 @@ class Order {
         var mm = String(this.orderDate.getMonth() + 1).padStart(2, '0'); //January is 0!
         var yyyy = this.orderDate.getFullYear();
 
-        let date = mm + '/' + dd + '/' + yyyy;
-        return date;
+        //let date = mm + '/' + dd + '/' + yyyy;
+        //return date;
+
+        const date = new Date (yyyy, this.orderDate.getMonth(),dd);
+        return i18n.formatDate(date);
     }
 
     //create a dummy "order status" string
