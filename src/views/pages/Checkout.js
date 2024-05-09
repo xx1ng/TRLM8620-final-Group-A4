@@ -31,6 +31,8 @@ let Checkout = {
         let securityLabel = i18n.getString("Checkout", "securityLabel");
         let securityHolder = i18n.getString("Checkout", "securityHolder");
         let expDateLabel = i18n.getString("Checkout", "expDateLabel");
+        let expMonthHolder = i18n.getString("Checkout", "expMonthHolder");
+        let expYearHolder = i18n.getString("Checkout", "expYearHolder");
         let cartTitle = i18n.getString("Checkout", "cartTitle");
         let deleteAlt = i18n.getString("Checkout", "deleteAlt");
         let totalLabel = i18n.getString("Checkout", "totalLabel");
@@ -106,25 +108,10 @@ let Checkout = {
                             <div class="formElement">
                                 <label for="expDate">${expDateLabel}</label>
                                 <div id="expDropdown">
-                                    <select id="expDate" name="expDate" class="checkoutInput">
-                                        <option value="" disabled selected hidden>MM</option>
-                                        `;
-        for (let i = 1; i <= 31; i++) {
-            var formattedNumber = ("0" + i).slice(-2); //$NON-NLS-L$
-            view += `<option value="${formattedNumber}">${formattedNumber}</option>`;
-        }
-        view += `
-                                    </select>
+                                    <input id="expDateMonth" name="expDateMonth" class="checkoutInput" placeholder="${expMonthHolder}">
                                     <h3>/</h3>
-                                    <select id="expDateYear" name="expDateYear" class="checkoutInput">
-                                        <option value="" disabled selected hidden>YY</option>
-                                        `;
-        for (let i = 1; i <= 12; i++) {
-            var formattedNumber = ("0" + i).slice(-2); //$NON-NLS-L$
-            view += `<option value="${formattedNumber}">${formattedNumber}</option>`;
-        }
-        view += `
-                                    </select>
+                                    <input id="expDateYear" name="expDateYear" class="checkoutInput" placeholder="${expYearHolder}">
+
                                 </div>
                             </div>
                         </div>

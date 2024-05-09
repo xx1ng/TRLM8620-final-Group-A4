@@ -67,6 +67,8 @@
         "securityLabel": "安全代码",
         "securityHolder": "123456",
         "expDateLabel": "有效期",
+        "expMonthHolder": "月（两位数字）",
+        "expYearHolder": "年（两位数字）",
         "cartTitle": "购物车",
         "deleteAlt": "从购物车中删除商品",
         "totalLabel": "共计：",

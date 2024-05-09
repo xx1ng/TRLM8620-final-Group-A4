@@ -67,6 +67,8 @@
         "securityLabel": "Security Code",
         "securityHolder": "123456",
         "expDateLabel": "Expiration Date",
+        "expMonthHolder": "MM",
+        "expYearHolder": "YY",
         "cartTitle": "Shopping Cart",
         "deleteAlt": "remove item from cart",
         "totalLabel": "Total: ",
