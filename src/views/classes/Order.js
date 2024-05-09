@@ -26,7 +26,7 @@ class Order {
         //let date = mm + '/' + dd + '/' + yyyy;
         //return date;
 
-        const date = new Date (yyyy, this.orderDate.getMonth(),dd);
+        const date = new Date (yyyy, this.orderDate.getMonth(), dd);
         return i18n.formatDate(date);
     }
 
