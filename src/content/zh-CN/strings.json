@@ -110,5 +110,10 @@
         "localeEN": "英语 - 美国",
         "localeZH": "中文 - 中国"
     },
-    "Special": "特别"
+    "Special": "特别",
+    "OrderStatus":{
+        "Processing": "处理中",
+        "Shipped": "已发货",
+        "Delivered": "已送达"
+    }
 }

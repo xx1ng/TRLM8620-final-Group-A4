@@ -110,5 +110,10 @@
         "localeEN": "English - US",
         "localeZH": "Chinese - China"
     },
-    "Special": "Special"
+    "Special": "Special",
+    "OrderStatus":{
+        "Processing": "Processing",
+        "Shipped": "Shipped",
+        "Delivered": "Delivered"
+    }
 }

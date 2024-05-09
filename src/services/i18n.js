@@ -25,7 +25,12 @@ const i18n = {
 
     //load resource json based on locale
     getString: (view, key) => {
-        return stringsJSON[view][key];
+        //return stringsJSON[view][key];
+        if (stringsJSON[view] && stringsJSON[view][key]) {
+            return stringsJSON[view][key];
+        } else {
+            return ''; // or return a default string
+        }
     },
 
     //determine the proper currency format based on locale and return html string

@@ -37,15 +37,22 @@ class Order {
         let now = new Date(); //$NON-NLS-L$
         var diffDays = Math.floor(Math.abs((this.orderDate.getTime() - now.getTime())/(oneDay))); //$NON-NLS-L$
 
+        let statusKey;
         if(diffDays < 2) {
-            return "Processing";
+            //return "Processing";
+            statusKey = "Processing";
         }
         if(diffDays < 4) {
-            return "Shipped"
+            //return "Shipped";
+            statusKey = "Shipped";
         }
         else{
-            return "Delivered";
+            //return "Delivered";
+            statusKey = "Delivered";
         }
+
+        let localizedStatus = i18n.getString("OrderStatus", statusKey);
+        return localizedStatus;
     }
 
 }
